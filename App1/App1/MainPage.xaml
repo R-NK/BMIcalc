@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App1"
+             x:Class="App1.MainPage">
+  <StackLayout>
+    <Entry x:Name="weight" Text="" Placeholder="Enter your weight! (kg)"
+           Keyboard="Numeric"/>
+    <Entry x:Name="height" Text="" Placeholder="Enter your height! (m)"
+           Keyboard="Numeric"/>
+    <Label x:Name="BMI" Text="I want to know your BMI!"
+           FontSize="Large"
+           VerticalOptions="Center"
+           HorizontalOptions="Center" />
+    <Button x:Name="btn1" Text="Click Me!"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand" />
+  </StackLayout>
+
+</ContentPage>
